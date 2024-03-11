@@ -1,0 +1,55 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.body{
+    background-color: rgb(49, 48, 48);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stuct{
+    /* border: 1px solid white; */
+    background-color: rgb(34, 33, 33);
+    padding: 20px;
+   
+}
+input{
+width: 300px;
+height: 40px;
+}
+.table input{
+width: 60px; height: 60px;  text-align: center;
+    box-shadow: 0 0 5px 2px #fff;
+   border-radius: 50%; border: none;  background-color: rgb(49, 48, 48);
+   margin: 10px;
+   color: whitesmoke;
+   cursor: pointer;
+   border: none;
+   
+}
+.table input:hover{
+background-color: whitesmoke;
+color: black;
+box-shadow: 0 0 5px 2px #1f1e1e;
+}
+table tr td button{
+background:none;
+border: 1px solid rgb(49, 48, 48) ;
+font-size: large;
+}
+#result{
+background-color: rgb(49, 48, 48);
+color: whitesmoke;
+border: none;
+outline: none;
+height: 30px;
+padding: 10px;
+box-shadow: 0 0 4px 1px #414040;
+}
+
+
+

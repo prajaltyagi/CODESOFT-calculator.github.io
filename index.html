@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+<div class="body">
+    <div class="calu" >
+        
+
+    <div class="stuct" >
+        <p style="text-align: center; color:whitesmoke; font-size:xx-large;">Codesoft <span style="color: rgb(255, 136, 0);">Calculator</span></p><br><br>
+       
+        <center>
+            <form action="" name="fo">
+            <input type="text" id="result" name="result"><br><br>
+       <div class="table"> 
+            <input type="button" value="AC" name="clear" onclick="fo.result.value=''" >
+            <input type="button" value="%"  name="%" onclick="fo.result.value+='%'">
+            <input type="button" value="/" name="/" onclick="fo.result.value+='/'">
+            <input type="button" value="^" name="^" onclick="fo.result.value+='^'" >
+            <br>
+            <input type="button" value="9" name="9" onclick="fo.result.value+='9'">
+            <input type="button" value="8" name="8" onclick="fo.result.value+='8'">
+            <input type="button" value="7" name="7" onclick="fo.result.value+='7'">
+            <input type="button" value="*" name="*" onclick="fo.result.value+='*'">
+            <br>
+            <input type="button" value="6" name="6" onclick="fo.result.value+='6'">
+            <input type="button" value="5" name="5" onclick="fo.result.value+='5'">
+            <input type="button" value="4" name="4" onclick="fo.result.value+='4'">
+            <input type="button" value="-" name="-" onclick="fo.result.value+='-'">
+            <br>
+            <input type="button" value="3" name="3" onclick="fo.result.value+='3'">
+            <input type="button" value="2" name="2" onclick="fo.result.value+='2'">
+            <input type="button" value="1" name="1" onclick="fo.result.value+='1'">
+            <input type="button" value="+" name="+" onclick="fo.result.value+='+'">
+            <br>
+            <input type="button" value="00" name="00" onclick="fo.result.value+='00'">
+            <input type="button" value="0" name="0" onclick="fo.result.value+='0'">
+            <input type="button" value="." name="." onclick="fo.result.value+='.'">
+            <input type="button" value="=" style="color: black; background-color: rgb(255, 136, 0);" name="equal" onclick="fo.result.value=eval(fo.result.value)">
+        </div>
+    </form>
+    </center>
+    </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
